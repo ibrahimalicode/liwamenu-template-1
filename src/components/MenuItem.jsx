@@ -15,7 +15,7 @@ const MenuItem = ({ image, title, description, price }) => {
             <div className="flex flex-col flex-1 px-5 text-black">
               <h3 className="text-xl font-semibold">{title}</h3>
               <p className="mt-3 text-sm">{description}</p>
-              <div className="mt-3 text-xl font-bold text-stone-500">
+              <div className="mt-3 text-xl font-semibold text-[#997241]">
                 ${price}
               </div>
             </div>

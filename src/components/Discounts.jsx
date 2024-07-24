@@ -20,10 +20,10 @@ const discountItems = [
 const Discounts = () => {
   return (
     <section className="flex flex-col pb-12 w-full bg-white max-md:max-w-full">
-      <h2 className="px-16 py-16 w-full text-6xl font-bold text-black whitespace-nowrap bg-white max-md:px-5 max-md:max-w-full max-md:text-4xl text-center">
+      <h2 className="px-16 py-16 w-full text-5xl font-bold text-black whitespace-nowrap bg-white max-md:px-5 max-md:max-w-full max-md:text-4xl text-center title_txt">
         Discounts
       </h2>
-      <div className="flex-wrap content-center self-center w-full max-w-[1176px] max-md:max-w-full">
+      <div className="flex-wrap content-center self-center w-full max-w-[1176px] max-md:max-w-full discount_txt">
         <div className="flex gap-5 max-md:flex-col">
           {discountItems.map((item, index) => (
             <div

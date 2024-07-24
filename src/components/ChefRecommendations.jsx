@@ -52,7 +52,7 @@ const recommendedItems = [
 const ChefRecommendations = () => {
   return (
     <section className="flex flex-col pb-3.5 w-full bg-white max-md:max-w-full">
-      <h2 className="px-16 py-16 w-full text-6xl font-bold text-black bg-white max-md:px-5 max-md:max-w-full max-md:text-4xl text-center">
+      <h2 className="px-16 py-16 w-full text-5xl font-bold text-black bg-white max-md:px-5 max-md:max-w-full max-md:text-4xl text-center title_txt">
         Chef Recomendations
       </h2>
       <div className="flex-wrap content-center self-center w-full max-w-[1184px] max-md:max-w-full">

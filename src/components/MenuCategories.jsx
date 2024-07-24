@@ -19,7 +19,7 @@ const categories = [
 
 const MenuCategories = () => {
   return (
-    <nav className="flex justify-center items-center p-2.5 py-5 w-full text-base font-semibold whitespace-nowrap bg-white text-stone-500 max-md:px-5 max-md:max-w-full">
+    <nav className="flex justify-center items-center p-2.5 py-5 w-full text-base font-semibold whitespace-nowrap bg-white text-stone-500 max-md:px-5 max-md:max-w-full category_btns">
       <div className="flex gap-5 justify-between max-w-full w-[453px] max-md:flex-wrap">
         {categories.map((category, index) => (
           <div key={index} className="flex flex-col text-stone-500">

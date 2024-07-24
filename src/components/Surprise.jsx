@@ -1,9 +1,9 @@
 const Surprise = () => {
   return (
-    <section className="justify-between pl-20 w-full border-t border-b bg-stone-100 border-stone-900 max-md:pl-5 max-md:max-w-full">
+    <section className="justify-between pl-20 w-full border-t border-b bg-stone-100 border-stone-900 max-md:pl-5 max-md:max-w-full surprise">
       <div className="flex gap-5 max-md:flex-col">
-        <div className="flex flex-col w-[26%] max-md:ml-0 max-md:w-full">
-          <h2 className="flex flex-col grow justify-center self-stretch py-20 text-5xl font-bold text-black max-md:mt-3.5 max-md:text-4xl">
+        <div className="flex flex-col w-[26%] max-md:ml-0 max-md:w-full min-w-max">
+          <h2 className="flex flex-col grow justify-center self-stretch py-20 text-7xl font-bold text-black max-md:mt-3.5 max-md:text-4xl">
             <span>WE LOVE TO</span>
             <span className="mt-2.5">SURPRISE YOU</span>
           </h2>
@@ -32,7 +32,7 @@ const Surprise = () => {
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/90ba95c8ecc8b085680f8905a440330a43e7f18aec80b2790908d3465c780866?apiKey=1f4fb250339844f88428d2cbf4e019e9&&apiKey=1f4fb250339844f88428d2cbf4e019e9"
-            alt="Decorative image"
+            alt="Decorative"
             className="grow shrink-0 self-stretch max-w-full aspect-[0.89] w-[297px] max-md:mt-3.5"
           />
         </div>

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="flex justify-center items-center px-2.5 w-full text-base bg-neutral-100 text-neutral-400 max-md:px-5 max-md:max-w-full">
+    <footer className="flex justify-center items-center px-2.5 w-full text-base bg-neutral-100 text-neutral-400 max-md:px-5 max-md:max-w-full footer">
       <div className="flex flex-col justify-center py-8 max-w-full w-[263px]">
         <img
           loading="lazy"

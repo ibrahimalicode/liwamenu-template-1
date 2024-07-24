@@ -6,7 +6,7 @@ const Hero = () => {
         backgroundImage: `url("https://cdn.builder.io/api/v1/image/assets/TEMP/604963f51823f386afdc9a23b0a540ced0227c058ca654ec368b1e77933c7cca?apiKey=1f4fb250339844f88428d2cbf4e019e9&&apiKey=1f4fb250339844f88428d2cbf4e019e9")`,
       }}
     >
-      <h1 className="text-white text-center">Liwa Cafe</h1>
+      <h1 className="text-white text-center title_txt">Liwa Cafe</h1>
     </section>
   );
 };

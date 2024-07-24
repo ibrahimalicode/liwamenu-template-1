@@ -1,6 +1,6 @@
 const MenuItem = ({ image, title, description, price }) => {
   return (
-    <div className="bg-white shadow max-md:max-w-full">
+    <div className="bg-white shadow max-md:max-w-full menu_item">
       <div className="flex gap-5 max-md:flex-col">
         <div className="flex flex-col w-[35%] max-md:ml-0 max-md:w-full">
           <img
@@ -19,7 +19,7 @@ const MenuItem = ({ image, title, description, price }) => {
                 ${price}
               </div>
             </div>
-            <div className="flex flex-col justify-end pt-16 pr-2.5 pb-2.5 text-xs font-semibold text-slate-800">
+            <div className="flex flex-col justify-end pt-16 pr-2.5 pb-2.5 text-xs font-bold text-slate-800">
               <button className="px-3 py-3 bg-amber-300">Add to cart</button>
             </div>
           </div>
